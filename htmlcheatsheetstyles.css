@@ -1,11 +1,6 @@
 html {
-<<<<<<< HEAD
   background-color: #FCFFFF;
   color: black;
-=======
-  background-color: #FFFFFF;
-  color: #264165;
->>>>>>> 2c0bf6af1e3f50ff19033d91ea92ba403ce7a503
   font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -28,11 +23,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-<<<<<<< HEAD
   background-color: #D3E9ED;
-=======
-  background-color: #FFFFFF;
->>>>>>> 2c0bf6af1e3f50ff19033d91ea92ba403ce7a503
 }
 
 li {
