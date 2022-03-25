@@ -1,3 +1,4 @@
+ html
  {
     background-color: #FCFFFF;
     color: #7F9CA1;
@@ -47,4 +48,24 @@ a:hover {
     grid-template-rows: 1fr;
     grid-column-gap: 40px;
     grid-row-gap: px;
+}
+
+.row {
+    padding: 30px
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+#selfie {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
 }
