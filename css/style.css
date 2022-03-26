@@ -17,13 +17,7 @@ li {
     float: left;
 }
 
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+
 
 a:hover {
     background-color: #7F9CA1;
@@ -68,4 +62,20 @@ img {
     width: 100%;
     max-width: 200px;
     height: auto;
+}
+
+.dark-mode
+ {
+    background-color: #282827;
+    color: #C0CACE !important;
+}
+
+.jumbotron {
+    background-color: transparent !important;
+}
+
+.dark-button {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
 }

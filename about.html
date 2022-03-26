@@ -1,8 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Josh Anderson</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>Joshua Anderson</title>
+  
+    <meta name="description" content="joshanderson">
+    <meta name="author" content="Joshua Anderson">
+  
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  
   </head>
 <body>
   <nav class="navbar-collapse">
@@ -22,19 +32,30 @@
           <li class="nav-item">
             <a class="nav-link active" href="about.html">Contact</a>
           </li>
+          <li class="dark-button">
+            <button class="btn btn-outline-success" onclick="darkMode()">Darkmode</button>
+          </li>
           </ul>
   </nav>
-  <div class="container">
+  <div class="jumbotron">
     <h2>Who I am</h2>
-    <img src="/photos/selfie.png" alt="img of me" class="img-thumbnail">
+    <img src="/photos/josh.jpg" alt="img of me" class="rounded-circle">
     <p>On my daily job, I work on autonomous delivery robots. They are quite fun to play with</p>
   </div>
   <div class="container-fluid">
-    <h2>What else</h2>
+    <h2>Contact</h2>
+    <ul>
+      <li><a href="">LinkedIn</a></li>
+      <li><a href="">Github</a></li>
+      <li><a href="">Blog</a></li>
+    </ul>
   </div>
 
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
  <footer>
-
+    <p>Created by: Josh Anderson</p>
  </footer>
 </html>
