@@ -86,7 +86,7 @@ img {
     float: right;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 390px) {
     .navbar-header{float:none;}
     .navbar-left, .navbar-right{float:none !important;}
     .navbar-toggle{display: block;}
@@ -100,4 +100,3 @@ img {
     .navbar-nav .open .dropdown-menu{position:static; float:none; width:auto; margin-top:0; background-color:transparent; border:0; -webkit-box-shadow:none; box-shadow:none;}}
     .row{justify-content: center; align-items: center;}
     .jumbotron{justify-content: center; align-items: center;}
-    .col-md-4{}
