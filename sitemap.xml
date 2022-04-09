@@ -1,39 +1,22 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://www.joshanderson.dev</loc>
-        <lastmod>2022-04-09</lastmod>
-        <changefreq>always</changefreq>
-        <image:image>
-            <image:loc>https://www.joshanderson.dev/photos/josh.jpg</image:loc>
-            <!-- ERROR - Object reference not set to an instance of an object. -->
-            <url>
-                <loc>https://www.joshanderson.dev/about.html</loc>
-                <lastmod>2022-04-09</lastmod>
-                <changefreq>always</changefreq>
-                <image:image>
-                    <image:loc>https://www.joshanderson.dev/photos/josh.jpg</image:loc>
-                    <!-- ERROR - Object reference not set to an instance of an object. -->
-                    <url>
-                        <loc>https://www.joshanderson.dev/project.html</loc>
-                        <lastmod>2022-04-09</lastmod>
-                        <changefreq>always</changefreq>
-                        <image:image>
-                            <image:loc>https://www.joshanderson.dev/photos/chrome_hUgkpyBVQ3.png</image:loc>
-                            <!-- ERROR - Object reference not set to an instance of an object. -->
-                            <url>
-                                <loc>https://www.joshanderson.dev/index.html</loc>
-                                <lastmod>2022-04-09</lastmod>
-                                <changefreq>always</changefreq>
-                                <image:image>
-                                    <image:loc>https://www.joshanderson.dev/photos/josh.jpg</image:loc>
-                                    <!-- ERROR - Object reference not set to an instance of an object. -->
-                                </image:image>
-                            </url>
-                        </image:image>
-                    </url>
-                </image:image>
-            </url>
-        </image:image>
+        <loc>https://www.joshanderson.dev/</loc>
+        <lastmod>2022-04-10T01:36:26+01:00</lastmod>
+        <priority>1.0</priority>
     </url>
+    <url>
+        <loc>https://www.joshanderson.dev/index.html</loc>
+        <lastmod>2022-04-10T01:36:26+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.joshanderson.dev/about.html</loc>
+        <lastmod>2022-04-10T01:36:26+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.joshanderson.dev/project.html</loc>
+        <lastmod>2022-04-10T01:36:26+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+</urlset>
