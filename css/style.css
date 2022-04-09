@@ -71,6 +71,7 @@ img {
     display: flex;
     justify-content: flex-end;
     float: right;
+    
 } 
 
  @media (max-width: 390px) {
@@ -89,6 +90,22 @@ img {
     .jumbotron{justify-content: center; align-items: center;}
 
     .contact {
+        
+        font-size: 24px;
         list-style: none;
         align-content: center;
+        text-align: center;
+        padding: 10px;
+        margin: auto;
     }
+
+    .contact a {
+        transition-duration: 0.4s;
+        border: none;
+        padding: 15px 32px;
+        margin: 25px;
+        
+    }
+
+
+
