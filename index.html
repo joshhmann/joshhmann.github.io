@@ -1,102 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Joshua Anderson</title>
-
     <meta name="description" content="joshanderson">
     <meta name="author" content="Joshua Anderson">
-
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
-  </head>
-  <header>
-  </header>
+</head>
 <body>
-	
-<nav class="navbar">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12">
-				<ul class="nav nav-pills">
-					<li class="nav-item">
-						<a class="nav-link active" href="/index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="/project.html">Projects</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="https://joshanderson.hashnode.dev/" target="_blank" rel="noreferrer noopener">Blog</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="about.html">Contact</a>
-					</li>
-					<li class="nav-item">
-						<button class="btn btn-outline-primary" onclick="darkMode()">Darkmode</button>
-					</li>
-													
-				</ul>
-</nav>
-			<div class="jumbotron">
-				<img id="selfie" alt="photo of josh anderson" src="/photos/josh.jpg" class="rounded-circle">
-				<h2>
-					Josh Anderson
-				</h2>
-				<p>
-					Front End Web Developer Specializing in Web Development, Gaming, and Server Hosting
-				</p>
-				<p>
-					<a class="btn btn-primary btn-large" href="/about.html">Learn more</a>
-				</p>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<img alt="Bootstrap Image Preview" src="/photos/selfie.png" class="rounded-circle">
-					<h2>
-						About
-					</h2>
-					<p>
-						Check out my about section
-					</p>
-					<p>
-						<a class="btn" href="/about.html">View details »</a>
-					</p>
-				</div>
-				<div class="col-md-4">
-					<img alt="Bootstrap Image Preview" src="/photos/selfie.png" class="rounded-circle">
-					<h2>
-						Blog
-					</h2>
-					<p>
-						Check out my blog
-					</p>
-					<p>
-						<a class="btn" href="https://joshanderson.hashnode.dev/">View details »</a>
-					</p>
-				</div>
-				<div class="col-md-4">
-					<img alt="Bootstrap Image Preview" src="/photos/selfie.png" class="rounded-circle">
-					<h2>
-						Projects
-					</h2>
-					<p>
-						Check out my projects!
-					</p>
-					<p>
-						<a class="btn" href="#">View details »</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/index.html">Joshua Anderson</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/project.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://joshanderson.hashnode.dev/" target="_blank" rel="noreferrer noopener">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-primary" id="dark-mode-toggle">Darkmode</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="jumbotron">
+            <img id="selfie" alt="photo of Josh Anderson" src="/photos/josh.jpg" class="rounded-circle">
+            <h2>Josh Anderson</h2>
+            <p>Front End Web Developer Specializing in Web Development, Gaming, and Server Hosting</p>
+            <p><a class="btn btn-primary btn-large" href="/about.html">Learn more</a></p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img alt="Bootstrap Image Preview" src="/photos/selfie.png" class="rounded-circle">
+                    <h2>About</h2>
+                    <p>Check out my about section</p>
+                    <p><a class="btn" href="/about.html">View details »</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img alt="Bootstrap Image Preview" src="/photos/selfie.png" class="rounded-circle">
+                    <h2>Blog</h2>
+                    <p>Check out my blog</p>
+                    <p><a class="btn" href="https://joshanderson.hashnode.dev/">View details »</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img alt="Bootstrap Image Preview" src="/photos/selfie.png" class="rounded-circle">
+                    <h2>Projects</h2>
+                    <p>Check out my projects!</p>
+                    <p><a class="btn" href="#">View details »</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-  </body>
+    <script>
+        document.getElementById('dark-mode-toggle').addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
 </html>
